@@ -19,8 +19,15 @@ body {
 
 /* Header */
 header {
-background-color: rgb(167, 164, 169);
+background-color: rgb(231, 226, 226);
+width: 100%;
+box-shadow: 0 1px 3px rgb(96, 95, 95);
+text-align: center;
+position: fixed;
+z-index: 99.9;
+padding: 0 25px;
 }
+
 
 h1 {
     font-family:"Julius Sans One", sans-serif;;
