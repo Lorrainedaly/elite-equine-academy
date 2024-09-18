@@ -30,10 +30,18 @@ padding: 0 25px;
 header a {
     text-decoration:none;
     color: black ;
+    text-shadow:  0 0 0.5px;
 }
 
 h1 {
-    font-family:"Julius Sans One", sans-serif;;
+    font-family:"Julius Sans One", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Nav Bar */
+#menu {
+
 }
 
 /* Main Content */
