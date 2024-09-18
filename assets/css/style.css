@@ -27,7 +27,10 @@ position: fixed;
 z-index: 99.9;
 padding: 0 25px;
 }
-
+header a {
+    text-decoration:none;
+    color: black ;
+}
 
 h1 {
     font-family:"Julius Sans One", sans-serif;;
