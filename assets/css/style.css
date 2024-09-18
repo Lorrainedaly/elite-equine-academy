@@ -90,6 +90,7 @@ main {
     background-color: rgb(8, 172, 172);
     /* Make main element take up surplus space to push footer down */
     flex: 1 0 auto;
+    margin-top: 103px;
 }
 
 /* Footer */
