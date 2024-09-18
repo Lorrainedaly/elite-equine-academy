@@ -131,3 +131,9 @@ footer {
         margin-top: 204px;
     }
 }
+
+/* Media Query: Laptops and larger (992px and up) */
+@media screen and (min-width:992px) {
+    /* Header */
+
+}
