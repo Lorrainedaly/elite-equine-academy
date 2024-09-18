@@ -28,7 +28,7 @@ z-index: 99.9;
 display: block;
 justify-content: space-between;
 align-items: flex-start;
-padding-top: 20px;
+padding: 20px 20px;
 }
 header > a {
     text-decoration:none;
@@ -39,7 +39,7 @@ header > a {
 h1 {
     font-family:"Julius Sans One", sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 6px;
 }
 
 /* Nav Bar */
@@ -92,7 +92,7 @@ main {
     /* Make main element take up surplus space to push footer down */
     flex: 1 0 auto;
     /* To push main content down and make visilbe */
-    margin-top: 123px;
+    margin-top: 143px;
 }
 
 /* Footer */
