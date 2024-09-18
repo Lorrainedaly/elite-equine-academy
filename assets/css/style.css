@@ -28,7 +28,7 @@ z-index: 99.9;
 display: block;
 justify-content: space-between;
 align-items: flex-start;
-padding: 20px 20px;
+padding-top:20px;
 }
 header > a {
     text-decoration:none;
@@ -39,7 +39,7 @@ header > a {
 h1 {
     font-family:"Julius Sans One", sans-serif;
     text-transform: uppercase;
-    letter-spacing: 6px;
+    letter-spacing: 1.2rem;
 }
 
 /* Nav Bar */
@@ -92,10 +92,33 @@ main {
     /* Make main element take up surplus space to push footer down */
     flex: 1 0 auto;
     /* To push main content down and make visilbe */
-    margin-top: 143px;
+    margin-top: 123px;
 }
 
 /* Footer */
 footer {
     background-color: rgb(170, 42, 151);
+}
+
+/* Media Query: Tablets and larger (768px and up) */
+@media screen and (min-width:768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        width: 100%; 
+        height:70px;  
+        margin-top: 10px;     
+    }
+    #menu {
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+    #menu > li {
+        font-size: x-large;
+    }
+    .nav-toggle-label {
+        display: none;
+    }
 }
