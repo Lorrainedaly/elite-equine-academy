@@ -25,9 +25,9 @@ box-shadow: 0 1px 3px rgb(96, 95, 95);
 text-align: center;
 position: fixed;
 z-index: 99.9;
-padding: 0 25px;
+
 }
-header a {
+header > a {
     text-decoration:none;
     color: black ;
     text-shadow:  0 0 0.5px;
@@ -41,7 +41,15 @@ h1 {
 
 /* Nav Bar */
 #menu {
+list-style-type: none;
+font-size: 120%;
+letter-spacing: 2px;
+background-color: rgb(96, 95, 95);
 
+}
+#menu a {
+    text-decoration: none;
+    color: white;
 }
 
 /* Main Content */
