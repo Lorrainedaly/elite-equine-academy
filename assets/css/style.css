@@ -28,6 +28,7 @@ z-index: 99.9;
 display: block;
 justify-content: space-between;
 align-items: flex-start;
+padding-top: 20px;
 }
 header > a {
     text-decoration:none;
@@ -90,7 +91,8 @@ main {
     background-color: rgb(8, 172, 172);
     /* Make main element take up surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 103px;
+    /* To push main content down and make visilbe */
+    margin-top: 123px;
 }
 
 /* Footer */
