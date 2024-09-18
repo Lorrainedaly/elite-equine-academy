@@ -44,7 +44,7 @@ h1 {
 list-style-type: none;
 font-size: 120%;
 letter-spacing: 2px;
-background-color: rgb(96, 95, 95);
+
 }
 
 #menu a {
@@ -57,6 +57,18 @@ background-color: rgb(96, 95, 95);
 }
 .active {
     border-bottom: 1px solid white;
+}
+
+/* Nav bar styles for dropdown menu */
+nav {
+    position: absolute;
+    width: 100%;
+    background-color: rgb(96, 95, 95);
+    padding: 15px 0 8px 20px;
+    box-shadow: 1px 1px 3px rgb(231, 226, 226);
+    text-align: left;
+    height: 25px;
+    display: none;
 }
 
 /* Main Content */
