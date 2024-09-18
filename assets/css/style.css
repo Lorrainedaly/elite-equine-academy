@@ -39,7 +39,7 @@ header > a {
 h1 {
     font-family:"Julius Sans One", sans-serif;
     text-transform: uppercase;
-    letter-spacing: 1.2rem;
+    letter-spacing: 0.5rem;
 }
 
 /* Nav Bar */
@@ -120,5 +120,14 @@ footer {
     }
     .nav-toggle-label {
         display: none;
+    }
+    #logo {
+        font-size: 300%;
+ 
+    }
+
+    main {
+        /* To push main content down and make visilbe on larger screen*/
+        margin-top: 204px;
     }
 }
