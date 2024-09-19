@@ -96,8 +96,22 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: rgb(170, 42, 151);
+#footer-div {
+    background-color: rgb(231, 226, 226);
+}
+#footer-div >h3 {
+    color: black;
+    text-align: center;
+    font-size: x-large;
+    padding-bottom: .5rem;
+}
+#footer-links {
+    
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    list-style-type: none;
 }
 
 /* Media Query: Tablets and larger (768px and up) */
