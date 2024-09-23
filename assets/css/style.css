@@ -110,7 +110,7 @@ main {
     text-align: center;
     display: flex;
     justify-content: space-evenly;
-    padding: 15px;
+    padding: 8px 15px 6px 15px;
     list-style-type: none;
     
 }
