@@ -19,7 +19,7 @@ body {
 
 /* Header */
 header {
-background-color: rgb(231, 226, 226);
+background-color: rgb(234, 231, 231);
 width: 100%;
 box-shadow: 0 1px 3px rgb(96, 95, 95);
 text-align: center;
@@ -92,15 +92,10 @@ main {
     flex: 1 0 auto;
     margin-top: 123px;
 }
-#home {
-    height: 550px;
-    width: 100%;
-    background: url("../css/images/main-pic.jpg") center center/cover no-repeat;
-}
 
 /* Footer */
 #footer-div {
-    background-color: rgb(231, 226, 226);
+    background-color: rgb(233, 231, 234);
 }
 #footer-div >h3 {
     color: rgb(96, 95, 95);
