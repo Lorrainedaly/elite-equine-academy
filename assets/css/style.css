@@ -98,6 +98,11 @@ main {
   
 }
 /* Main Section div */
+
+#main-image> img {
+    height: auto;
+    width: 100%;
+}
 #main-text {
 padding: 8px;
 color: white;
