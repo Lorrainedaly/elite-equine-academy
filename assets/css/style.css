@@ -112,6 +112,11 @@ main {
     justify-content: space-evenly;
     padding: 15px;
     list-style-type: none;
+    
+}
+
+.fa-brands fa-youtube {
+    color:rgb(96, 95, 95) ;
 }
 
 /* Media Query: Tablets and larger (768px and up) */
