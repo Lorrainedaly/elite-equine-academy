@@ -97,12 +97,28 @@ main {
     background-color: rgb(96, 95, 95);
   
 }
+/* Main Section div */
+#main-text {
+padding: 8px;
+color: white;
+}
 
 /* Main Section heading */
 .main-section-heading {
-    color: rgb(231, 226, 226);
     text-align: center;
- 
+    font-family:"Julius Sans One", sans-serif;
+}
+.main-paragraph {
+    padding: 5px 1rem;
+    text-align: justify;
+}
+/* Main section Quote */
+ #quote-wrap {
+    padding: 5px 10px;
+} 
+.quote {
+    font-style: italic;
+    font-size: small;
 }
 
 /* Footer */
