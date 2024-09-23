@@ -93,6 +93,18 @@ main {
     margin-top: 123px;
 }
 
+#home {
+    background-color: rgb(96, 95, 95);
+  
+}
+
+/* Main Section heading */
+.main-section-heading {
+    color: rgb(231, 226, 226);
+    text-align: center;
+ 
+}
+
 /* Footer */
 #footer-div {
     background-color: rgb(233, 231, 234);
