@@ -115,12 +115,10 @@ padding: 8px;
 .main-section-heading {
     text-align: center;
     font-family:"Julius Sans One", sans-serif;
-    color:white;
 }
 .main-paragraph {
     padding: 5px 1rem;
     text-align: center;
-    color: white;
 }
 /* Main section Quote */
  #quote-wrap {
