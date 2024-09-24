@@ -92,12 +92,10 @@ main {
     flex: 1 0 auto;
     margin-top: 123px;
     background-color:rgb(96, 95, 95)  ;
+    color:white
 }
 
-#home {
-    background-color: rgb(96, 95, 95);
-  
-}
+
 /* Main Section div */
 
 #main-image> img {
