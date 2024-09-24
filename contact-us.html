@@ -45,7 +45,41 @@
     </header>
 
     <!-- Main Content -->
-    <main>Main</main>
+    <main>
+        <section>
+            <div>
+                <form action="contact-form" id="contact-form" class="contact-form" method="post">
+                    <label for="contact reason">Contact Reason</label>
+                    <br>
+                    <select name="contact reason" id="contact reason">
+                        <option value="query">General Query</option>
+                        <option value="book a private lesson">Book a one hour private lesson</option>
+                        <option value="book a 1 day course">Book a 1 day course</option>
+                        <option value="book a 3 day course">Book a 3 day course</option>
+                        <option value="book an intensive course">Book a 5 day intensive course</option>
+                    </select>
+                        <br>
+                     <label for="name" class="">Your Name</label>
+                    <br>
+                     <input type="text" id="name" name="fullname" required>
+                      <br>
+                     <label for="email">Your email address</label>
+                     <br>
+                     <input type="email" name="email" id="email" required>
+                      <br>
+                     <label for="comment">Comment</label>
+                     <br>
+                     <textarea name="comment" id="comment" cols="22" rows="7" ></textarea>
+                    <br>
+                     <label for="newsletter">Join our newsletter</label>
+                     <br>
+                     <input type="checkbox" id="newsletter" value="newletter" name="newsletter">
+                       <br>
+                     <button type="submit">Send</button>
+            </form>
+            </div>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>
