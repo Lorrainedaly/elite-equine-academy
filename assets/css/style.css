@@ -105,8 +105,13 @@ main {
 }
 #main-text {
 padding: 8px;
-color: white;
+color: rgb(229, 207, 207);
 }
+#index-base-image >img {
+    height: auto;
+    width: 100%;
+}
+
 
 /* Main Section heading */
 .main-section-heading {
