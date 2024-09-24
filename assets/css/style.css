@@ -132,23 +132,20 @@ padding: 8px;
 
 /* Contact page */
 
-#contact-page {
-
-}
-
 #contact-form {
     font-family: "Open Sans", sans-serif;
-    font-size: 1.5rem;
+    font-size: 20px;
     font-weight: 300px;
-    color: white;
+    color: rgb(234, 231, 231);
     text-align: left;
-    margin: 75px 40px;
+    margin: 40px 30px 40px 30px;
     padding: 15px;
-    box-shadow: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 5px 5px;
     border-radius:10px ;
-    width: 30%;
-    line-height: 2rem;
+    width: 80%;
+    line-height: 40px;
 }
+
 
 /* Footer */
 #footer-div {
@@ -204,6 +201,24 @@ padding: 8px;
         /* To push main content down and make visilbe on larger screen*/
         margin-top: 204px;
     }
+    #contact-form {
+        font-size: 2.5rem;
+        font-weight: 250px;
+        margin: 100px 40px 50px 100px;
+        padding: 15px;
+        box-shadow: 10px 10px 10px 10px;
+        border-radius:10px;
+        width: 60%;
+        line-height: 3rem;
+    }
+    #contact-reason {
+        width: 50%;
+        font-size: xx-large;
+    }
+    .form-box {
+        width: 50%;
+        height: 30px;  
+    }
 }
 
 /* Media Query: Laptops and larger (992px and up) */
@@ -212,4 +227,5 @@ padding: 8px;
     #menu a:hover {
         border-bottom: 1px solid white;
     }
+
 }
