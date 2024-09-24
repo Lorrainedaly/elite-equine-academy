@@ -106,7 +106,6 @@ main {
 }
 #main-text {
 padding: 8px;
-color: rgb(229, 207, 207);
 }
 #index-base-image >img {
     height: auto;
@@ -121,7 +120,7 @@ color: rgb(229, 207, 207);
 }
 .main-paragraph {
     padding: 5px 1rem;
-    text-align: justify;
+    text-align: center;
 }
 /* Main section Quote */
  #quote-wrap {
@@ -130,6 +129,7 @@ color: rgb(229, 207, 207);
 .quote {
     font-style: italic;
     font-size: small;
+    text-align: center;
 }
 
 /* Footer */
