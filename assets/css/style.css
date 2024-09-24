@@ -202,10 +202,10 @@ padding: 8px;
         margin-top: 204px;
     }
     #contact-form {
-        font-size: 2.5rem;
+        font-size: 2rem;
         font-weight: 250px;
-        margin: 100px 40px 50px 100px;
-        padding: 15px;
+        margin: 100px 40px 70px 100px;
+        padding: 25px;
         box-shadow: 10px 10px 10px 10px;
         border-radius:10px;
         width: 60%;
@@ -214,11 +214,24 @@ padding: 8px;
     #contact-reason {
         width: 50%;
         font-size: xx-large;
+        margin: 10px 0;
     }
+    #comment {
+        width: 50%;
+        height: 12rem;
+        margin:10px 0;
+    }
+    #newsletter {
+        transform: scale(2);
+        margin-left: 10px;
+    }
+
     .form-box {
         width: 50%;
-        height: 30px;  
+        height: 30px; 
+        margin: 10px 0; 
     }
+
 }
 
 /* Media Query: Laptops and larger (992px and up) */
