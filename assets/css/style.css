@@ -156,6 +156,15 @@ padding: 8px;
     line-height: 40px;
 }
 
+/* form submission page */
+#thank-you-page {
+    background-image:url(..//images/main-pic.jpg);
+    background-position: center;
+    background-size: cover;
+    height:100%;
+    width: 100%;
+    padding: 5px;
+}
 
 /* Footer */
 #footer-div {
