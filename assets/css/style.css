@@ -139,6 +139,23 @@ padding: 8px;
     text-align: center;
 }
 
+/* Gallery page */
+/* Push photos off the outside of the div */
+#photo-gallery {
+    padding: 10px;
+}
+#photos {
+    line-height: 0;
+
+}
+
+#photos img {
+    padding: 7.5px 0 7.5px 0;
+    width: 100%;
+}
+
+
+
 /* Contact page */
 
 /* Background image for contact page */
@@ -198,6 +215,17 @@ padding: 8px;
 .fa-brands fa-youtube {
     color:rgb(96, 95, 95) ;
 }
+/* Media Query: large or landscape phones (576px and up) */
+@media screen and (min-width:576px) {
+/* Gallery page - Add 2 colums for photos */
+    #photo-gallery {
+        width: 100%;
+    }
+#photos {
+        column-count: 2;
+        width: 100%;
+    }
+}
 
 /* Media Query: Tablets and larger (768px and up) */
 @media screen and (min-width:768px) {
@@ -228,6 +256,12 @@ padding: 8px;
     main {
         /* To push main content down and make visilbe on larger screen*/
         margin-top: 204px;
+    }
+
+    /* Gallery page */
+    #photos {
+       column-count: ;
+ 
     }
 
     /* Contact page */
@@ -281,5 +315,7 @@ padding: 8px;
     #menu a:hover {
         border-bottom: 1px solid white;
     }
-
+#photos {
+    column-count: 4;
+}
 }
