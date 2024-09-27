@@ -220,6 +220,15 @@ padding: 8px;
         /* To push main content down and make visilbe on larger screen*/
         margin-top: 204px;
     }
+
+    /* Contact page */
+
+    #contact-page {
+        background-image:url(..//images/main-pic.jpg);
+        background-position: center;
+        background-size: cover;
+        height:100%;
+        
     #contact-form {
         font-size: 2rem;
         font-weight: 250px;
