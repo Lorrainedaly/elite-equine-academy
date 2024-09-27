@@ -116,10 +116,19 @@ padding: 8px;
     text-align: center;
     font-family:"Julius Sans One", sans-serif;
 }
-.main-paragraph {
+.main-paragraphs {
     padding: 5px 1rem;
     text-align: center;
 }
+
+.main-paragraphs a {
+    color: white;
+}
+.main-paragraphs a:hover {
+    background-color: white;
+    color:rgb(96, 95, 95)  ;
+  }
+
 /* Main section Quote */
  #quote-wrap {
     padding: 5px 10px;
@@ -228,7 +237,7 @@ padding: 8px;
         background-position: center;
         background-size: cover;
         height:100%;
-        
+
     #contact-form {
         font-size: 2rem;
         font-weight: 250px;
