@@ -157,7 +157,7 @@ padding: 8px;
 }
 
 /* form submission page */
-#thank-you-page {
+#thank-you-page 404-error {
     background-image:url(..//images/main-pic.jpg);
     background-position: center;
     background-size: cover;
