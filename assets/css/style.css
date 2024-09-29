@@ -142,26 +142,31 @@ padding: 8px;
 
 /* About page */
 #about-page h4 {
+    font-style: italic;
+    font-family:"Julius Sans One", sans-serif;
+}
+#about-page h3 {
     font-family:"Julius Sans One", sans-serif;
     text-align: center;
-    margin: 10px 5px 5px 5px;
+    margin-top: 10px;
     text-transform: uppercase;
-    padding: 0 10px 5px 10px;
+    padding: 5px 10px 10px 10px;
+    text-decoration: underline;
+    line-height: 25px;
 }
 
 #about-page-section {
-    width:95%;
-    margin: 10px;
+    width:100%;
+    margin: 10px 10px 0 px 10px;
     text-align: center;
-    padding: 10px;
+    padding: 10px 10px 0 10px;
 }
 
 #about-page-section li {
     list-style-type: none;
 }
 #about-page-section p {
-
-    padding: 1rem;
+    padding: .5rem;
 
 }
 
@@ -177,7 +182,7 @@ padding: 8px;
 #about-page-image> img {
     height: auto;
     width: 100%;
-    padding-top: 20px;
+    padding: 15px;
 }
 /* Gallery page */
 /* Push photos off the outside of the div */
