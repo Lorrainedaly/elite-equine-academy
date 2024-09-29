@@ -93,6 +93,7 @@ main {
     margin-top: 123px;
     background-color:rgb(96, 95, 95)  ;
     color:white
+
 }
 
 
@@ -140,10 +141,43 @@ padding: 8px;
 }
 
 /* About page */
+#about-page h4 {
+    font-family:"Julius Sans One", sans-serif;
+    text-align: center;
+    margin: 10px 5px 5px 5px;
+    text-transform: uppercase;
+    padding: 0 10px 5px 10px;
+}
+
+#about-page-section {
+    width:95%;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+#about-page-section li {
+    list-style-type: none;
+}
+#about-page-section p {
+
+    padding: 1rem;
+
+}
+
+.about-page-link a {
+    color: white;
+}
+
+.about-page-link a:hover {
+    background-color: white;
+    color:rgb(96, 95, 95)  ;
+  }
 
 #about-page-image> img {
     height: auto;
     width: 100%;
+    padding-top: 20px;
 }
 /* Gallery page */
 /* Push photos off the outside of the div */
