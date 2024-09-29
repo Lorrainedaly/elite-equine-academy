@@ -139,6 +139,12 @@ padding: 8px;
     text-align: center;
 }
 
+/* About page */
+
+#about-page-image> img {
+    height: auto;
+    width: 100%;
+}
 /* Gallery page */
 /* Push photos off the outside of the div */
 #photo-gallery {
