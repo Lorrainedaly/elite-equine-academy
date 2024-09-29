@@ -24,7 +24,7 @@ width: 100%;
 box-shadow: 0 1px 3px rgb(96, 95, 95);
 text-align: center;
 position: fixed;
-z-index: 99.9;
+z-index: 99;
 display: block;
 justify-content: space-between;
 align-items: flex-start;
@@ -155,9 +155,10 @@ padding: 8px;
     line-height: 25px;
 }
 
-#about-page-section {
+#about-page-section,
+#our-services-section {
     width:100%;
-    margin: 10px 10px 0 px 10px;
+    margin: 10px 10px 0px 10px;
     text-align: center;
     padding: 10px 10px 0 10px;
 }
@@ -186,12 +187,9 @@ padding: 8px;
 }
 /* Gallery page */
 /* Push photos off the outside of the div */
-#photo-gallery {
-    padding: 10px;
-}
 #photos {
     line-height: 0;
-
+    padding: 10px;
 }
 
 #photos img {
@@ -216,7 +214,7 @@ padding: 8px;
 
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
-    font-weight: 300px;
+    font-weight: 300;
     color: white;
     text-align: left;
     margin: 40px 30px 40px 30px;
@@ -310,23 +308,18 @@ padding: 8px;
         margin-top: 204px;
     }
 
-    /* Gallery page */
-    #photos {
-       column-count: ;
- 
-    }
-
     /* Contact page */
 
     #contact-page {
         background-image:url(..//images/main-pic.jpg);
         background-position: center;
-        background-size: cover;
+        background-size:cover;
         height:100%;
+    }
 
     #contact-form {
         font-size: 2rem;
-        font-weight: 250px;
+        font-weight: 300;
         margin: 100px 40px 70px 100px;
         padding: 25px;
         box-shadow: 10px 10px 10px 10px;
