@@ -1,6 +1,7 @@
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -19,34 +20,35 @@ body {
 
 /* Header */
 header {
-background-color: rgb(234, 231, 231);
-width: 100%;
-box-shadow: 0 1px 3px rgb(96, 95, 95);
-text-align: center;
-position: fixed;
-z-index: 99;
-display: block;
-justify-content: space-between;
-align-items: flex-start;
-padding-top:20px;
+    background-color: rgb(234, 231, 231);
+    width: 100%;
+    box-shadow: 0 1px 3px rgb(96, 95, 95);
+    text-align: center;
+    position: fixed;
+    z-index: 99;
+    display: block;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 20px;
 }
-header > a {
-    text-decoration:none;
-    color: rgb(96, 95, 95) ;
-    text-shadow:  0 0 0.5px;
+
+header>a {
+    text-decoration: none;
+    color: rgb(96, 95, 95);
+    text-shadow: 0 0 0.5px;
 }
 
 h1 {
-    font-family:"Julius Sans One", sans-serif;
+    font-family: "Julius Sans One", sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.5rem;
 }
 
 /* Nav Bar */
 #menu {
-list-style-type: none;
-font-size: 120%;
-letter-spacing: 2px;
+    list-style-type: none;
+    font-size: 120%;
+    letter-spacing: 2px;
 
 }
 
@@ -55,9 +57,10 @@ letter-spacing: 2px;
     color: white;
 }
 
-#menu >li {
+#menu>li {
     margin-bottom: 10px;
 }
+
 .active {
     border-bottom: 1px solid white;
 }
@@ -76,11 +79,13 @@ nav {
 
 /* Nav toggle */
 #nav-toggle:checked~nav {
-    display:block ;
+    display: block;
 }
+
 #nav-toggle {
     display: none;
 }
+
 .nav-toggle-label {
     font-size: 25px;
     color: black;
@@ -91,23 +96,23 @@ main {
     /* Make main element take up surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 123px;
-    background-color:rgb(96, 95, 95)  ;
-    color:white;
-    width:100%;
-
+    background-color: rgb(96, 95, 95);
+    color: white;
+    width: 100%;
 }
-
 
 /* Main Section div */
 
-#main-image> img {
+#main-image>img {
     height: auto;
     width: 100%;
 }
+
 #main-text {
-padding: 8px;
+    padding: 8px;
 }
-#index-base-image >img {
+
+#index-base-image>img {
     height: auto;
     width: 100%;
 }
@@ -116,8 +121,9 @@ padding: 8px;
 /* Main Section heading */
 .index-page-headings {
     text-align: center;
-    font-family:"Julius Sans One", sans-serif;
+    font-family: "Julius Sans One", sans-serif;
 }
+
 .main-paragraphs {
     padding: 5px 1rem;
     text-align: center;
@@ -126,15 +132,17 @@ padding: 8px;
 .main-paragraphs a {
     color: white;
 }
+
 .main-paragraphs a:hover {
     background-color: white;
-    color:rgb(96, 95, 95)  ;
-  }
+    color: rgb(96, 95, 95);
+}
 
 /* Main section Quote */
- #quote-wrap {
+#quote-wrap {
     padding: 5px 10px;
-} 
+}
+
 .quote {
     font-style: italic;
     font-size: small;
@@ -142,19 +150,19 @@ padding: 8px;
 }
 
 /* About page */
-#about-page {
-   
-}
+#about-page {}
+
 #about-page h4 {
     font-style: italic;
-    font-family:"Julius Sans One", sans-serif;
+    font-family: "Julius Sans One", sans-serif;
     font-size: large;
     padding: 10px;
 }
+
 #about-page h3 {
-    font-family:"Julius Sans One", sans-serif;
+    font-family: "Julius Sans One", sans-serif;
     text-align: center;
-    margin-top: 10px ;
+    margin-top: 10px;
     text-transform: uppercase;
     padding: 5px 10px 10px 10px;
     text-decoration: underline;
@@ -163,40 +171,43 @@ padding: 8px;
 
 #about-page-section,
 #our-services-section {
-    width:94%;
+    width: 94%;
     margin: 10px 10px 0px 10px;
     text-align: center;
     padding: 10px 20px 10px 10px;
     background-color: rgb(231, 226, 226);
-    color:black;
+    color: black;
 }
+
 #about-us2 {
     color: white;
-    background-color: rgb(96, 95, 95) ;
+    background-color: rgb(96, 95, 95);
     width: 94%;
     text-align: center;
     text-align: center;
     padding: 10px 10px 5px 10px;
     margin: 10px 10px 0px 10px;
 }
+
 #our-services-section li {
     list-style-type: none;
 }
 
 .about-page-link a {
-    color:black;
+    color: black;
 }
 
 .about-page-link a:hover {
     background-color: rgb(96, 95, 95);
-    color:white ;
-  }
+    color: white;
+}
 
-  #about-page-image> img {
+#about-page-image>img {
     height: auto;
-    width:96%;
+    width: 96%;
     padding: 15px 0px 15px 12px;
 }
+
 /* Gallery page */
 /* Push photos off the outside of the div */
 #photos {
@@ -209,48 +220,45 @@ padding: 8px;
     width: 100%;
 }
 
-
-
 /* Contact page */
 
 /* Background image for contact page */
 #contact-page {
-    background-image:url(..//images/main-pic.jpg);
+    background-image: url(..//images/main-pic.jpg);
     background-position: center;
     background-size: cover;
-    height:100%;
-
+    height: 100%;
 }
 
 #contact-form {
-
     font-family: "Open Sans", sans-serif;
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 22px;
+    font-weight: 200;
     color: white;
     text-align: left;
     margin: 40px 30px 40px 30px;
     padding: 15px;
     box-shadow: 5px 5px 5px 5px;
-    border-radius:10px ;
+    border-radius: 10px;
     width: 80%;
     line-height: 40px;
+    background-color: rgb(96, 95, 95, 0.6); 
 }
 
 /* form submission page */
 #thank-you-page {
-    background-image:url(..//images/main-pic.jpg);
+    background-image: url(..//images/main-pic.jpg);
     background-position: center;
     background-size: cover;
-    height:100%;
+    height: 100%;
     width: 100%;
- 
 }
+
 #thank-you-page h3 {
     text-align: center;
     width: 100%;
     padding-top: 1rem;
-    background-color:rgb(96, 95, 95, .7) ;
+    background-color: rgb(96, 95, 95, .7);
     margin-top: 20px;
 }
 
@@ -258,41 +266,46 @@ padding: 8px;
 #footer-div {
     background-color: rgb(233, 231, 234);
 }
-#footer-div >h3 {
+
+#footer-div>h3 {
     color: rgb(96, 95, 95);
     text-align: center;
     font-size: large;
     padding-bottom: .5rem;
 }
+
 #footer-links {
-    
+
     text-align: center;
     display: flex;
     justify-content: space-evenly;
     padding: 8px 15px 6px 15px;
     list-style-type: none;
-    
 }
 
 .fa-brands fa-youtube {
-    color:rgb(96, 95, 95) ;
+    color: rgb(96, 95, 95);
 }
+
 /* Media Query: large or landscape phones (576px and up) */
 @media screen and (min-width:576px) {
-/* Gallery page - Add 2 colums for photos */
-#about-page-section,
-#our-services-section,
-#about-us2 {
-    width:96%;
-    
-}
-#about-page-image> img {
-    width:100%;
-}
+
+    /* Gallery page - Add 2 colums for photos */
+    #about-page-section,
+    #our-services-section,
+    #about-us2 {
+        width: 96%;
+    }
+
+    #about-page-image>img {
+        width: 100%;
+    }
+
     #photo-gallery {
         width: 100%;
     }
-#photos {
+
+    #photos {
         column-count: 2;
         width: 100%;
     }
@@ -300,48 +313,53 @@ padding: 8px;
 
 /* Media Query: Tablets and larger (768px and up) */
 @media screen and (min-width:768px) {
+
     /* Header */
     nav {
         display: block;
         position: relative;
-        width: 100%; 
-        height:70px;  
-        margin-top: 10px;     
+        width: 100%;
+        height: 70px;
+        margin-top: 10px;
     }
+
     #menu {
         display: flex;
         justify-content: space-evenly;
-
     }
-    #menu > li {
+
+    #menu>li {
         font-size: x-large;
     }
+
     .nav-toggle-label {
         display: none;
     }
+
     #logo {
         font-size: 300%;
- 
     }
 
     main {
         /* To push main content down and make visilbe on larger screen*/
         margin-top: 204px;
     }
+
     /* ABout us page */
     #about-page-section,
     #our-services-section,
     #about-us2,
-    #about-page-image  {
-        width:98%;        
+    #about-page-image {
+        width: 98%;
     }
+
     /* Contact page */
 
     #contact-page {
-        background-image:url(..//images/main-pic.jpg);
+        background-image: url(..//images/main-pic.jpg);
         background-position: center;
-        background-size:cover;
-        height:100%;
+        background-size: cover;
+        height: 100%;
     }
 
     #contact-form {
@@ -350,20 +368,23 @@ padding: 8px;
         margin: 100px 40px 70px 100px;
         padding: 25px;
         box-shadow: 10px 10px 10px 10px;
-        border-radius:10px;
+        border-radius: 10px;
         width: 60%;
         line-height: 3rem;
     }
+
     #contact-reason {
         width: 50%;
         font-size: xx-large;
         margin: 10px 0;
     }
+
     #comment {
         width: 50%;
         height: 12rem;
-        margin:10px 0;
+        margin: 10px 0;
     }
+
     #newsletter {
         transform: scale(2);
         margin-left: 10px;
@@ -371,8 +392,8 @@ padding: 8px;
 
     .form-box {
         width: 50%;
-        height: 30px; 
-        margin: 10px 0; 
+        height: 30px;
+        margin: 10px 0;
     }
 
     #footer-links {
@@ -383,11 +404,13 @@ padding: 8px;
 
 /* Media Query: Laptops and larger (992px and up) */
 @media screen and (min-width:992px) {
+
     /* Header */
     #menu a:hover {
         border-bottom: 1px solid white;
     }
-#photos {
-    column-count: 4;
-}
+
+    #photos {
+        column-count: 4;
+    }
 }
