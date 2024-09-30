@@ -36,11 +36,11 @@ Currently the images are very large causing a delay with loading the pages, this
 
 ### Header:
 
-The header is fixed at the top of the page on all devices. It includes the navigation bar and is responsive for all devices.
+* The header is fixed at the top of the page on all devices. It includes the navigation bar and is responsive for all devices.
 
-The title is clear and easy to read on all devices.
+* The title is clear and easy to read on all devices.
 
-On mobile devices.
+ On mobile devices.
 
 ![Header on a mobile device](/assets/images/mobile-header.png)
 
@@ -48,7 +48,49 @@ On tablets and larger devices.
 
 ![Header on a mobile device](/assets/images/tablet-and-larger-header.png)
 
-### Navigation Bar:
+### Navigation Bar
+ #### On Mobile devices: 
+* The navigation bar has has a drop down menu below the logo on all pages.
+* When the hamburger menu is clicked the menu is displayed below the header.
+* There will be an underline on the page section that you are currently on when the dropdown menu is selected.
+
+![Nav bar on a mobile device](/assets/images/mobile-nav-bar.png)
+
+#### On Tablets or larger devices devices: 
+
+* The nav bar is displayed under the logo on all pages.
+* The current page will be high lighted on the nav bar by an underline.
+* The width of the nav bar is responsive.
+* A white line will appear as you hover over a particular page link.
+
+![Nav bar on a tablets and larger devices](/assets/images/tablet-larger-nav-bar.png)
+
+### Home Page:
+
+* The home page includes two images that clearly show the website a related to showjumping.
+* Introductory text about our academy seperates the two images.
+![Home page images and text](/assets/images/home-page1.png)
+
+* There are two links included in this text that will direct users to the gallery page and the contact us page to make the site easily navigated.
+
+![Home page images and text](/assets/images/links-home-page.png)
+
+* All aspects of the home page are fully responsive on all device sizes.
+
+* The home page is finished off with an inspirational quote to inspire our users.
+
+![Home page images and text](/assets/images/quote.png) 
+
+### About Us:
+
+* Users will find our more information on who we are, what we offer, our facilities and our our mission.
+* The page is divided into sections clearly marked by different background colors and font colors making it easy to read and acess the information that you as a user are after.
+
+![About page screenshot](/assets/images/about-us1.png) 
+
+![About page screenshot](/assets/images/about-us2.png) 
 
 
+### Gallery Page 
 
+* 
