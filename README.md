@@ -69,6 +69,7 @@ On tablets and larger devices.
 
 * The home page includes two images that clearly show the website a related to showjumping.
 * Introductory text about our academy seperates the two images.
+
 ![Home page images and text](/assets/images/home-page1.png)
 
 * There are two links included in this text that will direct users to the gallery page and the contact us page to make the site easily navigated.
@@ -162,4 +163,4 @@ The user will be able to select the relevant query from the drop down menu and a
 
 * The favicons were taken from [Font Awesome](https://fontawesome.com/) 
 * the images were taken from [Pexels](https://www.pexels.com/) 
-* Some of the text and inspiration were taken from the following sites [Elite Equine Ireland](http://equineeliteireland.com/), [Austrailian Equine Behavious Center](https://www.aebc.com.au/) and [Elite Equestrian Academy](https://www.eliteequestrianacademy.com/).
+* Some of the inspiration for the content for my website were taken from the following sites [Elite Equine Ireland](http://equineeliteireland.com/), [Austrailian Equine Behavious Center](https://www.aebc.com.au/) and [Elite Equestrian Academy](https://www.eliteequestrianacademy.com/).
