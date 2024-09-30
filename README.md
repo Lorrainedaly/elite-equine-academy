@@ -93,4 +93,23 @@ On tablets and larger devices.
 
 ### Gallery Page 
 
-* 
+* The gallery is there to show users previous and present students at different levels out competing.
+* This will allow users to see that all levels of riders are accomodated for at the academy, removing any nervousness for less accomplished or younger  riders.
+* The gallery is fully responsive on all divices.
+  *  On Mobile Devices:
+
+  ![Gallery page on mobile devices](/assets/images/gallery-mobile.png)
+  * On tablets:
+
+  ![Gallery page on tablets](/assets/images/gallery-tablet.png)
+
+  * On Laptops and larger devices:
+
+  ![Gallery page on laptops and larger devices](/assets/images/gallery-laptops.png)
+
+
+### Contact Us:
+
+
+
+  
