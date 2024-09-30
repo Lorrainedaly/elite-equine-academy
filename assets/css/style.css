@@ -143,7 +143,7 @@ padding: 8px;
 
 /* About page */
 #about-page {
-    width:100%;
+   
 }
 #about-page h4 {
     font-style: italic;
@@ -152,7 +152,7 @@ padding: 8px;
 #about-page h3 {
     font-family:"Julius Sans One", sans-serif;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 10px ;
     text-transform: uppercase;
     padding: 5px 10px 10px 10px;
     text-decoration: underline;
@@ -161,7 +161,7 @@ padding: 8px;
 
 #about-page-section,
 #our-services-section {
-    width:100%;
+    width:94%;
     margin: 10px 10px 0px 10px;
     text-align: center;
     padding: 10px 20px 5px 10px;
@@ -171,7 +171,7 @@ padding: 8px;
 #about-us2 {
     color: white;
     background-color: rgb(96, 95, 95) ;
-    width: 100%;
+    width: 94%;
     text-align: center;
     text-align: center;
     padding: 10px 10px 5px 10px;
@@ -192,7 +192,7 @@ padding: 8px;
 
 #about-page-image> img {
     height: auto;
-    width: 100%;
+    width:95%;
     padding: 15px 0px 15px 12px;
 }
 /* Gallery page */
