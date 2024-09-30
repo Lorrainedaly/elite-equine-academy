@@ -148,6 +148,8 @@ padding: 8px;
 #about-page h4 {
     font-style: italic;
     font-family:"Julius Sans One", sans-serif;
+    font-size: large;
+    padding: 10px;
 }
 #about-page h3 {
     font-family:"Julius Sans One", sans-serif;
@@ -164,7 +166,7 @@ padding: 8px;
     width:94%;
     margin: 10px 10px 0px 10px;
     text-align: center;
-    padding: 10px 20px 5px 10px;
+    padding: 10px 20px 10px 10px;
     background-color: rgb(231, 226, 226);
     color:black;
 }
@@ -190,9 +192,9 @@ padding: 8px;
     color:white ;
   }
 
-#about-page-image> img {
+  #about-page-image> img {
     height: auto;
-    width:95%;
+    width:96%;
     padding: 15px 0px 15px 12px;
 }
 /* Gallery page */
@@ -278,6 +280,15 @@ padding: 8px;
 /* Media Query: large or landscape phones (576px and up) */
 @media screen and (min-width:576px) {
 /* Gallery page - Add 2 colums for photos */
+#about-page-section,
+#our-services-section,
+#about-us2 {
+    width:96%;
+    
+}
+#about-page-image> img {
+    width:100%;
+}
     #photo-gallery {
         width: 100%;
     }
@@ -317,7 +328,13 @@ padding: 8px;
         /* To push main content down and make visilbe on larger screen*/
         margin-top: 204px;
     }
-
+    /* ABout us page */
+    #about-page-section,
+    #our-services-section,
+    #about-us2,
+    #about-page-image  {
+        width:98%;        
+    }
     /* Contact page */
 
     #contact-page {
