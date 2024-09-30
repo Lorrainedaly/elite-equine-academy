@@ -92,7 +92,8 @@ main {
     flex: 1 0 auto;
     margin-top: 123px;
     background-color:rgb(96, 95, 95)  ;
-    color:white
+    color:white;
+    width:100%;
 
 }
 
@@ -141,6 +142,9 @@ padding: 8px;
 }
 
 /* About page */
+#about-page {
+    width:100%;
+}
 #about-page h4 {
     font-style: italic;
     font-family:"Julius Sans One", sans-serif;
@@ -160,30 +164,36 @@ padding: 8px;
     width:100%;
     margin: 10px 10px 0px 10px;
     text-align: center;
-    padding: 10px 10px 0 10px;
+    padding: 10px 20px 5px 10px;
+    background-color: rgb(231, 226, 226);
+    color:black;
 }
-
-#about-page-section li {
+#about-us2 {
+    color: white;
+    background-color: rgb(96, 95, 95) ;
+    width: 100%;
+    text-align: center;
+    text-align: center;
+    padding: 10px 10px 5px 10px;
+    margin: 10px 10px 0px 10px;
+}
+#our-services-section li {
     list-style-type: none;
-}
-#about-page-section p {
-    padding: .5rem;
-
 }
 
 .about-page-link a {
-    color: white;
+    color:black;
 }
 
 .about-page-link a:hover {
-    background-color: white;
-    color:rgb(96, 95, 95)  ;
+    background-color: rgb(96, 95, 95);
+    color:white ;
   }
 
 #about-page-image> img {
     height: auto;
     width: 100%;
-    padding: 15px;
+    padding: 15px 0px 15px 12px;
 }
 /* Gallery page */
 /* Push photos off the outside of the div */
