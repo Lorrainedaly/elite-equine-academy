@@ -34,6 +34,21 @@ Currently the images are very large causing a delay with loading the pages, this
 
 # Features
 
+### Header:
+
+The header is fixed at the top of the page on all devices. It includes the navigation bar and is responsive for all devices.
+
+The title is clear and easy to read on all devices.
+
+On mobile devices.
+
+![Header on a mobile device](/assets/images/mobile-header.png)
+
+On tablets and larger devices.
+
+![Header on a mobile device](/assets/images/tablet-and-larger-header.png)
+
+### Navigation Bar:
 
 
 
