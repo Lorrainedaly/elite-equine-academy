@@ -17,7 +17,7 @@ Currently the images are very large causing a delay with loading the pages, this
 
 # Planning Stages
 
-### Target Audiences
+## Target Audiences
 
 * Users interested in progressing their showjumping career.
 * Users starting out on their showjumping career.
@@ -25,7 +25,7 @@ Currently the images are very large causing a delay with loading the pages, this
 * Users who have seen or heard about our academy and would like to find out more.
 * Users who are looking for a different approach to their coaching.
 
-### Site Aims
+## Site Aims
 
 * To inform the user of the services that we offer.
 * To provide the user with an insight into our unique and personalised coaching.
@@ -34,7 +34,7 @@ Currently the images are very large causing a delay with loading the pages, this
 
 # Features
 
-### Header:
+## Header:
 
 * The header is fixed at the top of the page on all devices. It includes the navigation bar and is responsive for all devices.
 
@@ -48,15 +48,15 @@ On tablets and larger devices.
 
 ![Header on a mobile device](/assets/images/tablet-and-larger-header.png)
 
-### Navigation Bar
- #### On Mobile devices: 
+## Navigation Bar
+ ### On Mobile devices: 
 * The navigation bar has has a drop down menu below the logo on all pages.
 * When the hamburger menu is clicked the menu is displayed below the header.
 * There will be an underline on the page section that you are currently on when the dropdown menu is selected.
 
 ![Nav bar on a mobile device](/assets/images/mobile-nav-bar.png)
 
-#### On Tablets or larger devices devices: 
+### On Tablets or larger devices devices: 
 
 * The nav bar is displayed under the logo on all pages.
 * The current page will be high lighted on the nav bar by an underline.
@@ -65,7 +65,7 @@ On tablets and larger devices.
 
 ![Nav bar on a tablets and larger devices](/assets/images/tablet-larger-nav-bar.png)
 
-### Home Page:
+## Home Page:
 
 * The home page includes two images that clearly show the website a related to showjumping.
 * Introductory text about our academy seperates the two images.
@@ -81,7 +81,7 @@ On tablets and larger devices.
 
 ![Home page images and text](/assets/images/quote.png) 
 
-### About Us:
+## About Us:
 
 * Users will find our more information on who we are, what we offer, our facilities and our our mission.
 * The page is divided into sections clearly marked by different background colors and font colors making it easy to read and acess the information that you as a user are after.
@@ -91,7 +91,7 @@ On tablets and larger devices.
 ![About page screenshot](/assets/images/about-us2.png) 
 
 
-### Gallery Page 
+## Gallery Page 
 
 * The gallery is there to show users previous and present students at different levels out competing.
 * This will allow users to see that all levels of riders are accomodated for at the academy, removing any nervousness for less accomplished or younger  riders.
@@ -108,8 +108,58 @@ On tablets and larger devices.
   ![Gallery page on laptops and larger devices](/assets/images/gallery-laptops.png)
 
 
-### Contact Us:
+## Contact Us:
+
+* This page allows the user to contact us directly from our site.
+The user will be able to select the relevant query from the drop down menu and add any comment or question that they have.
+
+ ![Contact us page](/assets/images/contact-us.png)
+
+* An error will highlight if a user does not fill in all required sections.
+* When submitted a thank you page will open up advising the user that we will be in touch shortly.
+
+![Thank you page](/assets/images/thank-you.png)
+
+## Footer 
+
+* The footer is pushed to the bottom of the site on all pages.
+* It contains the same color styling as the heeader.
+* It contains four social media links that open up in a new tab.
+  * On Mobiles:
+
+  ![Footer image on mobile devices](/assets/images/footer-mobile.png)
+
+  * On Tablets and larger devices:
+
+  ![Footer image on tablets and larger devices](/assets/images/footer-tablet-and-larger.png)
 
 
+# Testing
+* 
+## Bugs
 
+* 
+
+## Validator Testing
+* HTML
+  * I ran the code from my deployed project through the W3C validator and I ammended the few errors that I found. E.g. missing end tags, opening h3 with a closing h4.
+* CSS
+  * I ran my style sheet through the CSS validator and amended the few small errors.
+
+##  Unfixed Bugs
+* No unfixed bugs.
+
+# Deployment 
+* The site was deployed early to GitHub pages. The steps I took to deploy my project are as follows:
+  * Push my project on GitPod.
+  * Go to the GitHub repository and navigate to the Settings tab.
+  * From the source section drop-down menu, select Master Branch.
+  * You can select and view the deployed site from the right hand side of the page.
+
+[Please click here to view the live project.](https://lorrainedaly.github.io/elite-equine-academy/) 
   
+  # Credits
+
+* The favicons were taken from [Font Awesome](https://fontawesome.com/) 
+* the images were taken from [Pexels](https://www.pexels.com/) 
+* Some of the text and inspiration were taken from the following sites [Elite Equine Ireland](http://equineeliteireland.com/), [Austrailian Equine Behavious Center](https://www.aebc.com.au/) and [Elite Equestrian Academy](https://www.eliteequestrianacademy.com/).
