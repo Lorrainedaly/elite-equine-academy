@@ -10,8 +10,6 @@ Users of this website will be able to find out about the different types of trai
 
 The website is designed to be responsive and accessable on a wide range of devices, making it easy to navigate for all users.
 
-Currently the images are very large causing a delay with loading the pages, this is effecting the performance of my site and will need to be fixed.
-
 
 ![Picture of my website on different devices](/assets/images/amiresponsive.png)
 
@@ -49,14 +47,14 @@ On tablets and larger devices.
 ![Header on a mobile device](/assets/images/tablet-and-larger-header.png)
 
 ## Navigation Bar
- ### On Mobile devices: 
+ ### On mobile devices: 
 * The navigation bar has has a drop down menu below the logo on all pages.
 * When the hamburger menu is clicked the menu is displayed below the header.
 * There will be an underline on the page section that you are currently on when the dropdown menu is selected.
 
 ![Nav bar on a mobile device](/assets/images/mobile-nav-bar.png)
 
-### On Tablets or larger devices devices: 
+### On tablets and larger devices devices: 
 
 * The nav bar is displayed under the logo on all pages.
 * The current page will be high lighted on the nav bar by an underline.
@@ -104,7 +102,7 @@ On tablets and larger devices.
 
   ![Gallery page on tablets](/assets/images/gallery-tablet.png)
 
-  * On Laptops and larger devices:
+  * On laptops and larger devices:
 
   ![Gallery page on laptops and larger devices](/assets/images/gallery-laptops.png)
 
@@ -124,7 +122,7 @@ The user will be able to select the relevant query from the drop down menu and a
 ## Footer 
 
 * The footer is pushed to the bottom of the site on all pages.
-* It contains the same color styling as the heeader.
+* It contains the same color styling as the header.
 * It contains four social media links that open up in a new tab.
   * On Mobiles:
 
