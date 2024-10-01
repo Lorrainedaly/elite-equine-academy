@@ -160,9 +160,9 @@ main {
 #about-page h2 {
     font-family: "Julius Sans One", sans-serif;
     text-align: center;
-    margin-top: 10px;
+    margin: 1.2rem 0;
+    padding: 10px;
     text-transform: uppercase;
-    padding: 5px 10px 10px 10px;
     text-decoration: underline;
     line-height: 25px;
 }
@@ -172,47 +172,45 @@ main {
     font-family: "Julius Sans One", sans-serif;
     font-size: large;
     padding: 10px;
+    margin: 1.2rem 0;
 }
-
-#about-page-section,
-#our-services-section {
+#about-us2 {
     width: 94%;
-    margin: 10px 10px 0px 10px;
+    margin: 10px;
     text-align: center;
-    padding: 10px 20px 10px 10px;
+    padding: 1.2rem;
     background-color: rgb(234, 231, 231);
     color: black;
 }
 
-#about-us2 {
+#about-page-section,
+#our-services-section {
     color: white;
     background-color: rgb(96, 95, 95);
-    width: 94%;
+    width: 92%;
     text-align: center;
     text-align: center;
-    padding: 10px 10px 5px 10px;
-    margin: 10px 10px 0px 10px;
-
+    padding: 15px ;
+    margin: 10px ;
 }
-
 
 #our-services-section li {
     list-style-type: none;
 }
 
 .about-page-link a {
-    color: black;
+    color: white;
 }
 
 .about-page-link a:hover {
-    background-color: rgb(96, 95, 95);
-    color: white;
+    background-color:white ;
+    color: rgb(96, 95, 95);
 }
 
 #about-page-image>img {
     height: auto;
     width: 96%;
-    padding: 15px 0px 15px 12px;
+    padding: 15px 0px 15px 15px;
 }
 
 /* Gallery page */
