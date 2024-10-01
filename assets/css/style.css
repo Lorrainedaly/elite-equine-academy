@@ -156,16 +156,8 @@ main {
 }
 
 /* About page */
-#about-page {}
 
-#about-page h4 {
-    font-style: italic;
-    font-family: "Julius Sans One", sans-serif;
-    font-size: large;
-    padding: 10px;
-}
-
-#about-page h2 {
+#about-page> h2 {
     font-family: "Julius Sans One", sans-serif;
     text-align: center;
     margin-top: 10px;
@@ -173,6 +165,14 @@ main {
     padding: 5px 10px 10px 10px;
     text-decoration: underline;
     line-height: 25px;
+
+}
+
+#about-us> h2 {
+    font-style: italic;
+    font-family: "Julius Sans One", sans-serif;
+    font-size: large;
+    padding: 10px;
 }
 
 #about-page-section,
@@ -193,6 +193,10 @@ main {
     text-align: center;
     padding: 10px 10px 5px 10px;
     margin: 10px 10px 0px 10px;
+
+}
+#our-services-section > h2 {
+    font-weight: 100;
 }
 
 #our-services-section li {
