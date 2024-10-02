@@ -196,7 +196,7 @@ As I was building this website I encountered a number of bugs and with fixing on
 
 ## Validator Testing
 * HTML
-  * I ran the code from my deployed project through the W3C validator and I ammended the few errors that I found. E.g. missing end tags, opening h3 with a closing h4.
+  * I ran the code from my deployed project through the W3C validator and I ammended the few errors that I found. For example missing end tags, opening h3 with a closing h4.
     * Home:
 
     ![HTML validator report for home page](/docs/images/home-page-html-checker.png)
@@ -215,7 +215,7 @@ As I was building this website I encountered a number of bugs and with fixing on
 
 
 * CSS
-  * I ran my style sheet through the CSS validator and amended the few small errors.
+  * I ran my style sheet through the CSS validator to ensure that my CSS code had no errors that needed amending.
 
   ![CSS validator report](/docs/images/css-checker.png)
 
@@ -234,7 +234,7 @@ As I was building this website I encountered a number of bugs and with fixing on
   
   # Credits
 
-* As this is my first project alot of my code has been inspired by the Love Running website that we created as part of our course. I have tried to make my website as different as possible but there are similarities in the Nav bar, the footer and some of my layout.
+* As this is my first project, alot of my code has been inspired by the [Love Running website](https://lorrainedaly.github.io/love-running./) that we created as part of our course with the Code Insitute. I have tried to make my website as unique as possible with the skills that I have learned over the course, but there are similarities in the code. Some examples of the similarities can be found in the Nav bar, the footer and some of my layout.
 * The favicons were taken from [Font Awesome](https://fontawesome.com/) 
 * the images were taken from [Pexels](https://www.pexels.com/) 
 * Some of the inspiration for the content for my website were taken from the following sites [Elite Equine Ireland](http://equineeliteireland.com/), [Austrailian Equine Behavious Center](https://www.aebc.com.au/) and [Elite Equestrian Academy](https://www.eliteequestrianacademy.com/).
