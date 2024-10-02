@@ -176,6 +176,8 @@ I ran all the pages in lighthouse on both mobile and computer setting to view th
   * On Laptops
 
   ![Lighthouse report on Mobile for home page](/docs/images/contact-us-computer-report.png)
+
+
 ## Bugs
 
 * 
@@ -183,8 +185,28 @@ I ran all the pages in lighthouse on both mobile and computer setting to view th
 ## Validator Testing
 * HTML
   * I ran the code from my deployed project through the W3C validator and I ammended the few errors that I found. E.g. missing end tags, opening h3 with a closing h4.
+    * Home:
+
+    ![HTML validator report for home page](/docs/images/home-page-html-checker.png)
+
+    * About us:
+    
+    ![HTML validator report for about us page](/docs/images/about-page-html-checker.png)
+
+      * Gallery:
+
+    ![HTML validator report for gallery page](/docs/images/gallery-page-html-checker.png)
+
+    * Contact us:
+    
+    ![HTML validator report for contact us page](/docs/images/contact-page-html-checker.png)
+
+
 * CSS
   * I ran my style sheet through the CSS validator and amended the few small errors.
+
+  ![CSS validator report](/docs/images/css-checker.png)
+
 
 ##  Unfixed Bugs
 * No unfixed bugs.
