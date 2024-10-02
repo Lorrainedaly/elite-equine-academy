@@ -352,8 +352,6 @@ main {
         margin-top: 204px;
     }
 
-
-
     /* Footer */
     /* Make icons larger */
     
@@ -410,6 +408,11 @@ main {
         height: 30px;
         margin: 10px 0;
     }
+
+    /* Gallery page */
+    #photos {
+        column-count: 3;
+    }
 }
 
 /* Media Query: Laptops and larger (992px and up) */
@@ -419,7 +422,7 @@ main {
     #menu a:hover {
         border-bottom: 1px solid white;
     }
-
+/* Gallery page */
     #photos {
         column-count: 4;
     }
