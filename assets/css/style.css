@@ -352,6 +352,8 @@ main {
         margin-top: 204px;
     }
 
+
+
     /* Footer */
     /* Make icons larger */
     
@@ -377,8 +379,8 @@ main {
     }
 
     #contact-form {
-        font-size: 2rem;
-        font-weight: 300;
+        font-size: 1.5rem;
+        font-weight: 200;
         margin: 100px 40px 70px 100px;
         padding: 25px;
         border-radius: 10px;
@@ -388,7 +390,7 @@ main {
 
     #contact-reason {
         width: 50%;
-        font-size: xx-large;
+        font-size: large;
         margin: 10px 0;
     }
 
