@@ -287,7 +287,7 @@ main {
     justify-content: space-evenly;
     padding: 18px 0 18px 0;
     list-style-type: none;
-    font-size: large;
+    font-size: 30px;
 }
 
 .fa-brands fa-youtube {
@@ -350,6 +350,13 @@ main {
     main {
         /* To push main content down and make visilbe on larger screen*/
         margin-top: 204px;
+    }
+
+    /* Footer */
+    /* Make icons larger */
+    
+    #footer-links {
+        font-size: 45px;
     }
 
     /* About us page */
