@@ -180,7 +180,19 @@ I ran all the pages in lighthouse on both mobile and computer setting to view th
 
 ## Bugs
 
-* 
+As I was building this website I encountered a number of bugs and with fixing one bug it caused a new bug that needed fixing. Unfortunately due to this being my first project I mistakenly did not make a note, or take screenshots, of all of the bugs that I encountered while developing this website and this is a step that I will ensure I do for all of my future projects and website for going forwards.
+
+* On the nav bar the underline was not showing up under the correct page I was viewing. On review I had not removed the active class from the home page. I resolved this by placing the active class on the correct link on nav bar.  
+
+* On tablets and larger devices there was extra blank space on the right of my pages in the main sections. By inspecting the page I found that it was coming from the footer. On closer inspection I noted that I had used text-transform in css to make the logos in the footer larger and this was making my footer wider causing the extra space in the main sections on my website. By removing this is removed the extra space and used font-size to make the icons larger.
+
+* When testing my form I encountered an error. On review I noted that I had mistakenly put post in the action instead of to a destination(e.g. a thank y ou page). To remedy this I put the code institute home page in the action and later linked up a thank you page when I had it created.
+
+* When I deployed my project I noted that the main image was not showing up on the deployed site. On inspecting my site, I noted that I had used the incorrect file path to link up the image. Once corrected the image loaded perfectly.
+
+* On testing my site I noted that the pages were taking a very long time to load, especially the gallery page. On review I noted that the images I used were incredibly large. I compressed and resized all the images and after my websites performance was improved. This was further proved when I ran lighthouse again.
+
+* On final testing I noted that the thank you page styling was no longer coming through. On review I had changed the id for the error page and on the css styling but I had not updated the id on the thank you page. Once this was completed, the styling was back.
 
 ## Validator Testing
 * HTML
@@ -222,6 +234,7 @@ I ran all the pages in lighthouse on both mobile and computer setting to view th
   
   # Credits
 
+* As this is my first project alot of my code has been inspired by the Love Running website that we created as part of our course. I have tried to make my website as different as possible but there are similarities in the Nav bar, the footer and some of my layout.
 * The favicons were taken from [Font Awesome](https://fontawesome.com/) 
 * the images were taken from [Pexels](https://www.pexels.com/) 
 * Some of the inspiration for the content for my website were taken from the following sites [Elite Equine Ireland](http://equineeliteireland.com/), [Austrailian Equine Behavious Center](https://www.aebc.com.au/) and [Elite Equestrian Academy](https://www.eliteequestrianacademy.com/).
