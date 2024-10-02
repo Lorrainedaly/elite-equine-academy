@@ -11,7 +11,7 @@ Users of this website will be able to find out about the different types of trai
 The website is designed to be responsive and accessable on a wide range of devices, making it easy to navigate for all users.
 
 
-![Picture of my website on different devices](/assets/images/amiresponsive.png)
+![Picture of my website on different devices](/docs/images/amiresponsive.png)
 
 # Planning Stages
 
@@ -40,11 +40,11 @@ The website is designed to be responsive and accessable on a wide range of devic
 
  On mobile devices.
 
-![Header on a mobile device](/assets/images/mobile-header.png)
+![Header on a mobile device](/docs/images/header-mobile-devices.png)
 
 On tablets and larger devices.
 
-![Header on a mobile device](/assets/images/tablet-and-larger-header.png)
+![Header on tablets and larger device](/docs/images/header-tablets.png)
 
 ## Navigation Bar
  ### On mobile devices: 
@@ -52,7 +52,7 @@ On tablets and larger devices.
 * When the hamburger menu is clicked the menu is displayed below the header.
 * There will be an underline on the page section that you are currently on when the dropdown menu is selected.
 
-![Nav bar on a mobile device](/assets/images/mobile-nav-bar.png)
+![Nav bar on a mobile device](/docs/images/nav-bar-mobile.png)
 
 ### On tablets and larger devices devices: 
 
@@ -61,33 +61,35 @@ On tablets and larger devices.
 * The width of the nav bar is responsive.
 * A white line will appear as you hover over a particular page link.
 
-![Nav bar on a tablets and larger devices](/assets/images/tablet-larger-nav-bar.png)
+![Nav bar on a tablets and larger devices](/docs/images/nav-bar-tablets&larger.png)
 
 ## Home Page:
 
-* The home page includes two images that clearly show the website a related to showjumping.
-* Introductory text about our academy seperates the two images.
+* The home page includes an image that clearly show the website a related to showjumping.
+* Introductory text about our academy is placed under the image.
 
-![Home page images and text](/assets/images/home-page1.png)
+![Home page image and text](/docs/images/home-page-mobile.png)
 
-* There are two links included in this text that will direct users to the gallery page and the contact us page to make the site easily navigated.
+* There are two links included in this text that will direct users to the gallery page and the contact us page to make the site easily navigated. These highlight as the mouse is hovered over them.
 
-![Home page images and text](/assets/images/links-home-page.png)
+![Home page image and text](/docs/images/home-page-links.png)
 
 * All aspects of the home page are fully responsive on all device sizes.
 
 * The home page is finished off with an inspirational quote to inspire our users.
 
-![Home page images and text](/assets/images/quote.png) 
+![Home page images and text](/docs/images/quote.png) 
 
 ## About Us:
 
 * Users will find our more information on who we are, what we offer, our facilities and our our mission.
 * The page is divided into sections clearly marked by different background colors and font colors making it easy to read and acess the information that you as a user are after.
+  * On Mobile
 
-![About page screenshot](/assets/images/about-us1.png) 
+  ![About page screenshot](/docs/images/about-us-mobile.png) 
+  * On Tablets and larger
 
-![About page screenshot](/assets/images/about-us2.png) 
+![About page screenshot](/docs/images/about-us-tablet.png) 
 
 
 ## Gallery Page 
