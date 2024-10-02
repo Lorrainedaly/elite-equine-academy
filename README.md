@@ -99,14 +99,14 @@ On tablets and larger devices.
 * The gallery is fully responsive on all divices.
   *  On Mobile Devices:
 
-  ![Gallery page on mobile devices](/assets/images/gallery-mobile.png)
+  ![Gallery page on mobile devices](/docs/images/gallery-mobile.png)
   * On tablets:
 
-  ![Gallery page on tablets](/assets/images/gallery-tablet.png)
+  ![Gallery page on tablets](/docs/images/gallery-tablet.png))
 
   * On laptops and larger devices:
 
-  ![Gallery page on laptops and larger devices](/assets/images/gallery-laptops.png)
+  ![Gallery page on laptops and larger devices](/docs/images/gallery-laptops.png)
 
 
 ## Contact Us:
@@ -114,12 +114,12 @@ On tablets and larger devices.
 * This page allows the user to contact us directly from our site.
 The user will be able to select the relevant query from the drop down menu and add any comment or question that they have.
 
- ![Contact us page](/assets/images/contact-us.png)
+ ![Contact us page](/docs/images/contact-us-page-laptop.png)
 
 * An error will highlight if a user does not fill in all required sections.
 * When submitted a thank you page will open up advising the user that we will be in touch shortly.
 
-![Thank you page](/assets/images/thank-you.png)
+![Thank you page](/docs/images/thank-you-page.png)
 
 ## Footer 
 
@@ -128,15 +128,54 @@ The user will be able to select the relevant query from the drop down menu and a
 * It contains four social media links that open up in a new tab.
   * On Mobiles:
 
-  ![Footer image on mobile devices](/assets/images/footer-mobile.png)
+  ![Footer image on mobile devices](/docs/images/footer-mobile.png)
 
   * On Tablets and larger devices:
 
-  ![Footer image on tablets and larger devices](/assets/images/footer-tablet-and-larger.png)
+  ![Footer image on tablets and larger devices](/docs/images/footer-tablets.png)
 
 
 # Testing
-* 
+## Google Lighthouse
+I ran all the pages in lighthouse on both mobile and computer setting to view the sites performance, accessibility, best practices and SEO. Please see the results below.
+* Home:
+  * On Mobile:
+
+![Lighthouse report on Mobile for home page](/docs/images/home-mobile-report.png)
+
+  * On Laptops
+
+  ![Lighthouse report on Mobile for home page](/docs/images/home-computer-report.png)
+
+  
+* About us:
+  * On Mobile
+  
+![Lighthouse report on Mobile for about us page](/docs/images/about-us-mobile-report.png)
+
+  * On Laptops:
+
+  ![Lighthouse report on Mobile for about us page](/docs/images/about-us-computer-report.png)
+
+  
+* Gallery:
+  * On Mobile:
+  
+![Lighthouse report on Mobile for gallery page](/docs/images/gallery-mobile-report.png)
+
+  * On Laptops:
+
+  ![Lighthouse report on Mobile for gallery page](/docs/images/gallery-computer-report.png)
+
+  
+* Contact Us:
+  * On Mobile
+  
+![Lighthouse report on Mobile for home page](/docs/images/contact-us-mobile-report.png)
+
+  * On Laptops
+
+  ![Lighthouse report on Mobile for home page](/docs/images/contact-us-computer-report.png)
 ## Bugs
 
 * 
